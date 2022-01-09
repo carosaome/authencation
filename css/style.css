@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f8fa;
+}
+.img-cover{
+    width: 60%;
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1627483262268-9c2b5b2834b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
+    no-repeat center / cover;
+}
+.form-container {
+    flex-grow: 1;
+    margin: auto;
+    padding: 0px 20px;
+    flex-direction: column;}
+
+.big-title{
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.err{
+    color: red;
+}
+
+.confirnEmail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title-confirn-email{
+    color: rgb(214, 21, 21);
+}
+
+.d-flex {
+    align-items: center;
+    justify-content: center;
+}
+.link {
+    text-decoration: none;
+    text-align: right;
+    cursor: pointer;
+
+}
